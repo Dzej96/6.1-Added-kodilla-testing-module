@@ -58,6 +58,7 @@ public class CollectionTestSuite {
         arrayListToCheckTwo.add(4);
         arrayListToCheckTwo.add(6);
         arrayListToCheckTwo.add(8);
+        arrayListToCheckTwo.add(10);
 
         Assertions.assertEquals(5,result2.size());
         Assertions.assertTrue(result2.containsAll(arrayListToCheckTwo));
